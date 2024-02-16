@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(14, 15, 51);
+    color: rgb(245, 232, 216);
+}
+header{
+    background-color: rgb(52, 52, 110);
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px 5px;
+}
+#horizontal a{
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid white;
+    color: bisque;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#horizontal a:hover{
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+#horizontal li{
+    list-style: none;
+}
+#horizontal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+header nav{
+    height: 70px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+main>div{
+    width: 80%;
+    height: 420px;
+    margin: auto;
+}
+main div>div{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#tierra{
+    order: 2;
+}
+#jupiter{
+    order: 1;
+}
+#urano{
+    order:-1;
+}
+#neptuno{
+    flex-grow: 2;
+}
+#venus{
+    order: 3;
+    flex-grow: 1;
+}
